@@ -1,7 +1,9 @@
 import { CodeBlock } from "@/components/CodeBlock";
 import { PlaceholderZone } from "@/components/PlaceholderZone";
-<img src="/img/06_cambio_dispositivo.png" alt="Cambio de dispositivo" />
-<img src="/img/07_ubicacion_inusual.png" alt="Ubicación inusual" />
+<>
+  <img src="/img/06_cambio_dispositivo.png" alt="Cambio de dispositivo" />
+  <img src="/img/07_ubicacion_inusual.png" alt="Ubicación inusual" />
+</>
 
 const code = `# Análisis de señales vs fraude
 fraude_dispositivo = pd.crosstab(

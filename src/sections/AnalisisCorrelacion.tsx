@@ -60,8 +60,7 @@ export default function AnalisisCorrelacion() {
             <span className="text-xs font-mono" style={{ color: "#b45309" }}>🔥</span>
             <span className="text-xs font-mono" style={{ color: "#7b7086" }}>Matriz de correlación con variable fraude</span>
           </div>
-          <img src={graficoCorr} alt="Matriz de correlación" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
-        </div>
+<img src="/img/image-11.png" alt="Matriz de correlación" className="w-full object-contain" style={{ display: "block", height: "auto" }} />        </div>
       </div>
     </section>
   );

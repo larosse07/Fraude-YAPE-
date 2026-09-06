@@ -1,12 +1,4 @@
 import { CodeBlock } from "@/components/CodeBlock";
-export function TuComponente() {
-  return (
-    <>
-      <img src="/img/regresion logistica.jpeg" alt="Regresión Logística" />
-      <img src="/img/arbol de decision.jpeg" alt="Árbol de Decisión" />
-    </>
-  );
-}
 
 const code = `from sklearn.metrics import (
     confusion_matrix,
@@ -418,7 +410,7 @@ export default function MLMatriz() {
           </div>
         </div>
 
-        {/* SECCIÓN AMPLIADA PARA LAS MATRICES REALES (AHORA GRANDE Y ABAJO) */}
+        {/* SECCIÓN AMPLIADA PARA LAS MATRICES REALES */}
         <div className="mt-8 grid md:grid-cols-2 gap-6">
 
           {/* REGRESIÓN LOGÍSTICA */}
@@ -438,7 +430,7 @@ export default function MLMatriz() {
 
             <div className="w-full h-[420px] flex items-center justify-center bg-slate-50 rounded-xl overflow-hidden p-2">
               <img
-                src={regresionLogistica}
+                src="/img/regresion logistica.jpeg"
                 alt="Matriz de confusión - Regresión Logística"
                 className="w-full h-full object-contain"
               />
@@ -462,7 +454,7 @@ export default function MLMatriz() {
 
             <div className="w-full h-[420px] flex items-center justify-center bg-slate-50 rounded-xl overflow-hidden p-2">
               <img
-                src={arbolDecision}
+                src="/img/arbol de decision.jpeg"
                 alt="Matriz de confusión - Árbol de Decisión"
                 className="w-full h-full object-contain"
               />
