@@ -1,7 +1,6 @@
 import { CodeBlock } from "@/components/CodeBlock";
 import { PlaceholderZone } from "@/components/PlaceholderZone";
-import arquitecturaPT from "@/imports/image-6.png";
-
+<img src="/img/image-6.png" alt="Arquitectura PT" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
 const code = `class RedFraude(nn.Module):
   def __init__(self, numero_variables):
     super().__init__()
@@ -93,8 +92,7 @@ export default function PyTorchNN() {
                 <span className="text-xs font-mono" style={{ color: "#dc2626" }}>🧠</span>
                 <span className="text-xs font-mono" style={{ color: "#7b7086" }}>Arquitectura de Red Neuronal — PyTorch</span>
               </div>
-              <img src={arquitecturaPT} alt="Arquitectura PyTorch" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
-            </div>
+<img src="/img/image-6.png" alt="Arquitectura PyTorch" className="w-full object-contain" style={{ display: "block", height: "auto" }} />            </div>
           </div>
         </div>
       </div>

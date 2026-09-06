@@ -1,6 +1,12 @@
 import { CodeBlock } from "@/components/CodeBlock";
-import regresionLogistica from "@/imports/regresion logistica.jpeg";
-import arbolDecision from "@/imports/arbol de decision.jpeg";
+export function TuComponente() {
+  return (
+    <>
+      <img src="/img/regresion logistica.jpeg" alt="Regresión Logística" />
+      <img src="/img/arbol de decision.jpeg" alt="Árbol de Decisión" />
+    </>
+  );
+}
 
 const code = `from sklearn.metrics import (
     confusion_matrix,

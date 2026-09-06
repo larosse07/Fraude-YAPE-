@@ -1,7 +1,7 @@
 import { CodeBlock } from "@/components/CodeBlock";
 import { PlaceholderZone } from "@/components/PlaceholderZone";
-import graficoCambio from "@/imports/06_cambio_dispositivo.png";
-import graficoUbicacion from "@/imports/07_ubicacion_inusual.png";
+<img src="/img/06_cambio_dispositivo.png" alt="Cambio de dispositivo" />
+<img src="/img/07_ubicacion_inusual.png" alt="Ubicación inusual" />
 
 const code = `# Análisis de señales vs fraude
 fraude_dispositivo = pd.crosstab(
@@ -77,7 +77,7 @@ export default function AnalisisSeñales() {
                 <span className="text-xs font-mono" style={{ color: "#b45309" }}>📊</span>
                 <span className="text-xs font-mono" style={{ color: "#7b7086" }}>Fraude según cambio de dispositivo</span>
               </div>
-              <img src={graficoCambio} alt="Gráfico señales vs fraude" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
+<img src="/img/06_cambio_dispositivo.png" alt="Gráfico señales vs fraude" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
             </div>
 
             <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(180,83,9,0.2)", boxShadow: "0 1px 4px rgba(116,35,132,0.06)", background: "#ffffff" }}>
@@ -85,8 +85,7 @@ export default function AnalisisSeñales() {
                 <span className="text-xs font-mono" style={{ color: "#b45309" }}>📊</span>
                 <span className="text-xs font-mono" style={{ color: "#7b7086" }}>Fraude según ubicación inusual</span>
               </div>
-              <img src={graficoUbicacion} alt="Gráfico ubicación inusual vs fraude" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
-            </div>
+<img src="/img/07_ubicacion_inusual.png" alt="Gráfico ubicación inusual vs fraude" className="w-full object-contain" style={{ display: "block", height: "auto" }} />            </div>
 
             <div
               className="p-4 rounded-xl"

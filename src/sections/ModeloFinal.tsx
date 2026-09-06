@@ -1,7 +1,6 @@
 import { PlaceholderZone } from "@/components/PlaceholderZone";
 import { Trophy } from "lucide-react";
-import graficometrics from "@/imports/image-10.png";
-
+<img src="/img/image-10.png" alt="Métricas del modelo" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
 export default function ModeloFinal() {
   return (
     <section id="comparacion-ganador" className="min-h-screen py-20 px-6 flex flex-col justify-center" style={{ background: "var(--bg-alt)" }}>
@@ -115,8 +114,7 @@ export default function ModeloFinal() {
             <span className="text-xs font-mono" style={{ color: "#742384" }}>📊</span>
             <span className="text-xs font-mono font-semibold" style={{ color: "#742384" }}>Métricas del modelo seleccionado</span>
           </div>
-          <img src={graficometrics} alt="Gráfico de métricas del modelo seleccionado" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
-        </div>
+<img src="/img/image-10.png" alt="Gráfico de métricas del modelo seleccionado" className="w-full object-contain" style={{ display: "block", height: "auto" }} />        </div>
       </div>
     </section>
   );

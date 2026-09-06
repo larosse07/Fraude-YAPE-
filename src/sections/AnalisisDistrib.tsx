@@ -1,6 +1,12 @@
 import { CodeBlock } from "@/components/CodeBlock";
-import graficoPie from "@/imports/02_operaciones_fraude.png";
-import graficoDist from "@/imports/image-5.png";
+export function MiComponente() {
+  return (
+    <>
+      <img src="/img/02_operaciones_fraude.png" alt="Gráfico 1" />
+      <img src="/img/12_correlacion.png" alt="Gráfico 2" />
+    </>
+  );
+}
 
 const code = `df = pd.read_csv(RUTA_DATASET)
 

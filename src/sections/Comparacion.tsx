@@ -1,6 +1,6 @@
 import { CodeBlock } from "@/components/CodeBlock";
 import { PlaceholderZone } from "@/components/PlaceholderZone";
-import graficof1 from "@/imports/image-9.png";
+<img src="/img/image-9.png" alt="Descripción de la imagen" />
 
 const code = `comparacion = comparacion.sort_values(
     by="F1-Score",
@@ -87,8 +87,7 @@ export default function Comparacion() {
                 <span className="text-xs font-mono" style={{ color: "#742384" }}>📊</span>
                 <span className="text-xs font-mono font-semibold" style={{ color: "#742384" }}>Comparación de F1-Score — 6 modelos</span>
               </div>
-              <img src={graficof1} alt="Gráfico comparativo de F1-Score entre modelos" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
-            </div>
+<img src="/img/image-9.png" alt="Gráfico comparativo de F1-Score entre modelos" className="w-full object-contain" style={{ display: "block", height: "auto" }} />            </div>
 
             <div className="p-5 rounded-xl" style={{ background: "rgba(180,83,9,0.06)", border: "1px solid rgba(180,83,9,0.2)" }}>
               <p className="text-xs font-mono uppercase tracking-widest mb-2" style={{ color: "#b45309" }}>Criterio de selección</p>

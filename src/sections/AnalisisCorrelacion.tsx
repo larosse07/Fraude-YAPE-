@@ -1,5 +1,5 @@
 import { CodeBlock } from "@/components/CodeBlock";
-import graficoCorr from "@/imports/12_correlacion.png";
+<img src="/img/12_correlacion.png" alt="Correlación" />
 
 const code = `columnas_numericas = df.select_dtypes(
     include=["float64", "int64"]

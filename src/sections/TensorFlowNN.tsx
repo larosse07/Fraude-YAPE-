@@ -1,8 +1,13 @@
 import { CodeBlock } from "@/components/CodeBlock";
 import { PlaceholderZone } from "@/components/PlaceholderZone";
-import arquitecturaKeras from "@/imports/image-7.png";
-import curvaEntrenamiento from "@/imports/image-8.png";
-
+export function TuComponente() {
+  return (
+    <>
+      <img src="/img/image-7.png" alt="Arquitectura Keras" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
+      <img src="/img/image-8.png" alt="Curva de entrenamiento" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
+    </>
+  );
+}
 const codeModel = `modelo = Sequential([
   Input(shape=(numero_variables,)),
   Dense(128, activation="relu"),
@@ -107,8 +112,7 @@ export default function TensorFlowNN() {
                 </div>
                 <span className="text-xs font-mono px-2 py-0.5 rounded-full" style={{ background: "rgba(5,150,105,0.12)", color: "#059669", border: "1px solid rgba(5,150,105,0.25)" }}>Loss</span>
               </div>
-              <img src={curvaEntrenamiento} alt="Curva de entrenamiento y validación" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
-            </div>
+<img src="/img/image-8.png" alt="Curva de entrenamiento y validación" className="w-full object-contain" style={{ display: "block", height: "auto" }} />            </div>
           </div>
 
           {/* Right: architecture image */}
@@ -118,8 +122,7 @@ export default function TensorFlowNN() {
                 <span className="text-xs font-mono" style={{ color: "#059669" }}>🧠</span>
                 <span className="text-xs font-mono" style={{ color: "#7b7086" }}>Arquitectura — TensorFlow / Keras</span>
               </div>
-              <img src={arquitecturaKeras} alt="Arquitectura Keras" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
-            </div>
+<img src="/img/image-7.png" alt="Arquitectura Keras" className="w-full object-contain" style={{ display: "block", height: "auto" }} />            </div>
           </div>
         </div>
       </div>

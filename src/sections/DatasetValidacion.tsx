@@ -1,7 +1,6 @@
 import { CodeBlock } from "@/components/CodeBlock";
 import { PlaceholderZone } from "@/components/PlaceholderZone";
-import tablaImg from "@/imports/image-4.png";
-
+<img src="/img/image-4.png" alt="Tabla de resultados" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
 const code = `df = pd.read_csv(RUTA_DATASET)
 
 print(f"Registros: {len(df):,}")
@@ -75,8 +74,7 @@ export default function DatasetValidacion() {
               <span className="text-xs font-mono" style={{ color: "#742384" }}>📋</span>
               <span className="text-xs font-mono" style={{ color: "#7b7086" }}>Resumen Estadístico Paramétrico — 50,000 Transacciones</span>
             </div>
-            <img src={tablaImg} alt="Resumen estadístico del dataset" className="w-full object-contain" style={{ display: "block", height: "auto" }} />
-          </div>
+<img src="/img/image-4.png" alt="Resumen estadístico del dataset" className="w-full object-contain" style={{ display: "block", height: "auto" }} />          </div>
         </div>
       </div>
     </section>
