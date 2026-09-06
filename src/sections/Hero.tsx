@@ -5,7 +5,7 @@ interface HeroProps {
 }
 
 export default function Hero({ onNavigate }: HeroProps) {
-  const team = ["Jesús", "Jakelin", "Joseph", "Rose"];
+  const team = ["Jesús", "Jakelin", "Jhoshef", "Rose"];
 
   return (
     <section

@@ -260,7 +260,7 @@ export default function App() {
         <Conclusiones />
 
         <footer className="py-6 text-center" style={{ borderTop: "1px solid rgba(124,58,237,0.18)", background: "var(--bg-sidebar)" }}>
-          <p className="text-xs text-gray-700 font-mono">Detección de Fraude en Yape · Machine Learning · Jesús · Jakelin · Joseph · Rose</p>
+          <p className="text-xs text-gray-700 font-mono">Detección de Fraude en Yape · Machine Learning · Jesús · Jakelin · Jhoshef · Rose</p>
         </footer>
       </main>
     </div>

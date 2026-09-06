@@ -18,7 +18,7 @@ const members = [
     initial: "K",
   },
   {
-    name: "JOSEPH",
+    name: "JHOSHEF",
     role: "Análisis exploratorio y visualización",
     color: "#f59e0b",
     gradient: "from-yellow-900/40 to-yellow-900/10",

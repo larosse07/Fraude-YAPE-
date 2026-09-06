@@ -35,7 +35,7 @@ NO colocar:
 * ROSE
 * JESÚS
 * JAKELIN
-* JOSEPH
+* JHOSHEF
 
 como elementos del menú.
 
@@ -128,7 +128,7 @@ Aplicación de Machine Learning y Redes Neuronales para la detección de transac
 Mostrar los integrantes:
 Jesús
 Jakelin
-Joseph
+Jhoshef
 Rose
 
 Mantener esta diapositiva limpia y visual.

@@ -345,7 +345,7 @@ A la derecha:
 
 Responsable:
 
-JOSEPH — Análisis Exploratorio
+JHOSHEF — Análisis Exploratorio
 
 Título:
 
@@ -904,7 +904,7 @@ JAKELIN
 
 Generación Dataset + PyTorch
 
-JOSEPH
+JHOSHEF
 
 Análisis Exploratorio + Gráficos
 

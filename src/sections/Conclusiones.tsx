@@ -80,7 +80,7 @@ export default function Conclusiones() {
                 </p>
                 <p className="text-lg font-bold text-white mt-5" style={{ fontFamily: "Outfit, sans-serif" }}>Gracias</p>
                 <div className="flex justify-center gap-2 mt-2">
-                  {["Jesús", "Jakelin", "Joseph", "Rose"].map((n) => (
+                  {["Jesús", "Jakelin", "Jhoshef", "Rose"].map((n) => (
                     <span key={n} className="text-xs px-2 py-0.5 rounded-full font-mono" style={{ background: "rgba(124,58,237,0.15)", color: "#c4b5fd" }}>{n}</span>
                   ))}
                 </div>
