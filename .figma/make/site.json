@@ -1,0 +1,10 @@
+{
+  "description": "This interactive web application presents a comprehensive academic project on early fraud detection in Yape transactions, utilizing data science and machine learning techniques to analyze and predict fraudulent activities.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
